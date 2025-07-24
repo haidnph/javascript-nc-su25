@@ -1,13 +1,13 @@
 // === SECTION 3 – Functions & Strings ===
 
-// ✅ Working with Strings
+//  Working with Strings
 console.log("--- String Methods ---");
 const lang = "JavaScript";
 console.log(lang.toUpperCase());
 console.log(lang.includes("Script"));
 console.log(lang.slice(0, 4));
 
-// ✅ Default Parameters
+// Default Parameters
 console.log("--- Default Parameters ---");
 function greet(name = "Guest") {
   console.log(`Hello, ${name}`);
@@ -15,7 +15,7 @@ function greet(name = "Guest") {
 greet();
 greet("Anna");
 
-// ✅ Value vs Reference
+//  Value vs Reference
 console.log("--- Value vs Reference ---");
 let val1 = 100;
 let val2 = val1;
@@ -27,7 +27,7 @@ const objB = objA;
 objB.score = 100;
 console.log(objA.score); // reference
 
-// ✅ Higher-Order Functions
+//  Higher-Order Functions
 console.log("--- Higher-Order Functions ---");
 function double(n) {
   return n * 2;
